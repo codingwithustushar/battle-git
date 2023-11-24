@@ -6,7 +6,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
   
-    height: 100vh;
+    height: 10vh;
 }
 .game{
     margin-left: 253px;
@@ -21,7 +21,7 @@ body{
 .btn{
     display: flex;
     justify-content: space-around;
-    width: 90%;
+    width: 99vw;
     margin-top: 102px;
 }
 .btn:hover{
@@ -38,24 +38,18 @@ button{
     color: white;
     text-shadow: -6px 2px 1px black ; 
     box-shadow:  -6px 2px 1px black;
-    width: 90%;
+    width: 396px;
 
 }
 .inst{
     margin-top: 102px;
 }
-/* .inst:hover{
-    background-color: black;
-    border-radius: 53px;
-} */
+
 
 .prof{
     margin-top: 102px;
 }
-/* .prof:hover{
-    background-color: black;
-    border-radius: 53px;
-} */
+
 @media screen and (max-width:900px){
     body{
         background-image: url("./assets/image\ 1.png");

@@ -8,6 +8,11 @@ const instr = document.getElementById("instbtn");
 instr.addEventListener("click",function(){
     window.location.href="./instr.html"
 })
+const prof = document.getElementById("profbtn")
+
+prof.addEventListener("click",function(){
+    window.location.href = ""
+})
 
 // function playBg(){
 //     document.getElementById("bgaudio").play()
