@@ -87,6 +87,9 @@ window.onload = function() {
 }
 
 function update() {
+    if (gameOver){
+        return;
+    }
     requestAnimationFrame(update);
     context.clearRect(0, 0, board.width, board.height);
 
@@ -169,6 +172,7 @@ function outOfBounds(yPosition) {
 }
 
 function movePlayer(e) {
+    e.preventDefault();
     //player1
     if (e.code == "KeyW") {
         player1.velocityY = -5;
@@ -226,14 +230,14 @@ function resetGame(direction) {
     
 }
 
-function endGame(winner) {
+function endGame(winnerNickname) {
     gameOver = true;
     context.fillStyle = "black";
     context.fillRect(0, 0, boardWidth, boardHeight);
 
     context.fillStyle = "white";
     context.font = "50px sans-serif";
-    context.fillText(`${winner} Wins!`, boardWidth / 10, boardHeight / 2);
+    context.fillText(`${winnerNickname} Wins!`, boardWidth / 10, boardHeight / 2);
 
     context.font = "30px sans-serif";
     context.fillText("Press 'R' or 'click'to restart", boardWidth / 10, boardHeight / 2 + 50);
