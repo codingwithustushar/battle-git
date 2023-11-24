@@ -1,0 +1,108 @@
+body{
+    background-image: url("./assets/image\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+.box{
+    width: 1130px;
+    height: 640px;
+    border-radius: 67px;
+    border: 10px solid #F9F8F8;
+    background: linear-gradient(180deg, #EA1E1E 0%, rgba(48, 56, 249, 0.76) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 140px;
+    margin-top: 80px;
+    
+    color: #FFF;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-shadow: -3px 3px 6px black ;
+    font-family: Inter;
+    text-align: center;
+
+}
+h1{
+    font-size: 58px;
+}
+p{
+    font-size: 29px;
+}
+button{
+    width: 144px;
+    height: 71px;
+    background-color: rgba(13, 8, 8, 0.94);
+    border-radius: 53px;
+    font-size: 29px;
+    color: white;
+    font-weight: 900;
+    border: 5px solid rgb(243, 239, 239);
+    text-shadow: -7px 3px 2px black ;
+    
+}
+.start{
+    margin-left: 500px;
+}
+
+@media screen and (max-width:900px) {
+    body{
+        background-image: url("./assets/image\ 1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 96vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+        margin-top: 30px;
+    }
+    .box{
+        width: 330px;
+        height: 640px;
+        border-radius: 67px;
+        border: 10px solid #F9F8F8;
+        background: linear-gradient(180deg, #EA1E1E 0%, rgba(48, 56, 249, 0.76) 100%);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        margin-left: 30px;
+        margin-top: 70px;
+        
+        color: #FFF;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-shadow: -3px 3px 6px black ;
+        font-family: Inter;
+        text-align: center;
+    
+    }
+    h1{
+        font-size: 37px;
+    }
+    p{
+        font-size: 20px;
+    }
+    button{
+        width: 114px;
+        height: 50px;
+        background-color: rgba(13, 8, 8, 0.94);
+        border-radius: 53px;
+        font-size: 25px;
+        color: white;
+        font-weight: 900;
+        border: 5px solid rgb(243, 239, 239);
+        text-shadow: -7px 3px 2px black ;
+        
+    }
+    .start{
+        margin-left: 60px;
+    }
+}

@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./assets/image\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    height: 10vh;
+}
+.game{
+    margin-left: 253px;
+    margin-top: -7px;
+}
+.pong{
+    width: 250px;
+    height: 250px;
+    margin-left: 600px;
+    margin-top: -80px;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+    width: 99vw;
+    margin-top: 102px;
+}
+.btn:hover{
+    
+    border-radius: 53px;
+}
+button{
+    height: 90px;
+    background-color: rgba(13, 8, 8, 0.94);
+    font-weight: 900;
+    border-radius: 53px;
+    border: 6px solid white;
+    font-size: 50px;
+    color: white;
+    text-shadow: -6px 2px 1px black ; 
+    box-shadow:  -6px 2px 1px black;
+    width: 396px;
+
+}
+.inst{
+    margin-top: 102px;
+}
+/* .inst:hover{
+    background-color: black;
+    border-radius: 53px;
+} */
+
+.prof{
+    margin-top: 102px;
+}
+/* .prof:hover{
+    background-color: black;
+    border-radius: 53px;
+} */
+@media screen and (max-width:900px){
+    body{
+        background-image: url("./assets/image\ 1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .game{
+        margin-left: 11px;
+        margin-top: -7px;
+        
+    }
+    .game img{
+        width: 410px;
+        height:209px
+    }
+    .pong{
+        width: 190px;
+        height: 190px;
+        margin-left: 100px;
+        margin-top: -77px;
+    }
+    .btn{
+        display: flex;
+        justify-content: space-around;
+        width: 60vw;
+        margin-top: -87px;
+        flex-direction: column;
+        margin-left: 81px;
+    }
+    .btn:hover{
+        
+        border-radius: 53px;
+    }
+    button{
+        height: 80px;
+        background-color: rgba(13, 8, 8, 0.94);
+        font-weight: 900;
+        border-radius: 53px;
+        border: 6px solid white;
+        font-size: 21px;
+        color: white;
+        text-shadow: -6px 2px 1px black;
+        box-shadow: -6px 2px 1px black;
+        width: 220px;
+    
+    }
+    .inst{
+        margin-top: 102px;
+    }
+    /* .inst:hover{
+        background-color: black;
+        border-radius: 53px;
+    } */
+    
+    .prof{
+        margin-top: 40px;
+    }
+
+    .play{
+        margin-top: 40px;
+    }
+    /* .prof:hover{
+        background-color: black;
+        border-radius: 53px;
+    } */
+}

@@ -1,0 +1,181 @@
+body{
+    background-image: url("./assets/image\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    width: 1071px;
+    height: 591px;
+    border-radius: 67px;
+    border: 10px solid #F9F8F8;
+    background: linear-gradient(180deg, #EA1E1E 0%, rgba(48, 56, 249, 0.76) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 200px;
+    margin-top: 90px;
+    
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-shadow: -7px 3px 2px black ;
+    font-family: Inter;
+
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -282px;
+    margin-top: 20px;
+}
+.logo{
+    width: 135px;
+    height: 125px;
+   margin-right: 307px;
+}
+button{
+    width: 144px;
+    height: 71px;
+    background-color: rgba(13, 8, 8, 0.94);
+    border-radius: 53px;
+    font-size: 29px;
+    color: white;
+    font-weight: 900;
+    border: 5px solid rgb(249, 246, 246);
+    text-shadow: -7px 3px 2px black ;
+    margin-left: 108px;
+}
+.back{
+    margin-left: 20px;
+}
+form{
+    margin-top: 63px;
+    margin-left: 84px;
+    
+}
+input{
+    width: 270px;
+    height: 70px;
+    border-radius: 35px;
+    border: 3px solid #000;
+    background: rgba(248, 190, 178, 0.69);
+    
+    color: #FDFDFD;
+    font-family: Inter;
+    font-size: 47px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    text-shadow: -7px 3px 2px black ;
+    padding-left: 10px;
+    text-align: center;
+}
+.start{
+    width: 276px;
+    height: 74px;
+    color: #FFF;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    font-family: Inter;
+    margin-left: 320px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width:900px) {
+    body{
+        background-image: url("./assets/image\ 1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        width: 330px;
+        height: 640px;
+        border-radius: 67px;
+        border: 10px solid #F9F8F8;
+        background: linear-gradient(180deg, #EA1E1E 0%, rgba(48, 56, 249, 0.76) 100%);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        margin-left: -3px;
+        margin-top: -50px;
+        
+        color: #FFF;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-shadow: -7px 3px 2px black ;
+        font-family: Inter;
+    
+    }
+    .top{
+        display: flex;
+        justify-content: space-around;
+        margin-left: 35px;
+        margin-top: 20px;
+    }
+    .logo{
+        width: 135px;
+        height: 125px;
+       margin-right: 400px;
+       margin-top: 50px;
+    }
+    button{
+        width: 93px;
+        height: 38px;
+        background-color: rgba(13, 8, 8, 0.94);
+        border-radius: 53px;
+        font-size: 21px;
+        color: white;
+        font-weight: 900;
+        border: 5px solid rgb(249, 246, 246);
+        text-shadow: -7px 3px 2px black ;
+        margin-left: 125px;
+    }
+    .back{
+        margin-left: 150px;
+    }
+    form{
+        margin-top: 24px;
+        margin-left: 20px;
+        
+    }
+    label{
+        margin-left: 30px;
+    }
+    input{
+        width: 213px;
+        height: 35px;
+        border-radius: 35px;
+        border: 3px solid #000;
+        background: rgba(248, 190, 178, 0.69);
+        
+        color: #FDFDFD;
+        font-family: Inter;
+        font-size: 37px;
+        font-style: italic;
+        font-weight: 900;
+        line-height: normal;
+        text-shadow: -7px 3px 2px black ;
+        padding-left: 10px;
+        text-align: center;
+        margin-top: 7px;
+    }
+    .start{
+        width: 230px;
+        height: 65px;
+        color: #FFF;
+        font-size: 30px;
+        font-style: italic;
+        font-weight: 900;
+        line-height: normal;
+        font-family: Inter;
+        margin-left: 31px;
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    background-image: url("./assets/image\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#board {
+    background-color: rgb(68, 25, 96);
+    border-top: 5px solid rgb(135, 235, 157);
+    border-bottom: 5px solid skyblue;
+    margin-top: 45px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:900px) {
+    body {
+        margin: 0;
+        overflow: hidden;
+        height: 100vh;
+    }
+
+    canvas{
+        display: block;
+    }
+    
+    #board {
+        background-color: rgb(68, 25, 96);
+        border-top: 5px solid rgb(135, 235, 157);
+        border-bottom: 5px solid skyblue;
+        margin-top: 45px;
+        border-radius: 20px;
+    }
+}
