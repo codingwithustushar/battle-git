@@ -23,10 +23,13 @@ Winning the Game: The game continues until one player reaches 5 Points . The pla
 
 # DEPLOYED LINK :
 
-
+ https://codingwithustushar.github.io/battle-git/
 
 # VIDEO LINK :
 
+Battle game part 1 : https://www.loom.com/share/f4be2f650a9f4d4da2a544127d074d8b?sid=e3a44135-1d79-4435-96a7-7f2a160c97aa
+
+Battle game part 2 : https://www.loom.com/share/fb573b4011ee45b59df0b8ebc5a45d7d?sid=430e9745-2e55-44c3-a0e3-88c8f44ad772
 
 # PAGES
 
