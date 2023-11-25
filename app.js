@@ -11,7 +11,7 @@ instr.addEventListener("click",function(){
 const prof = document.getElementById("profbtn")
 
 prof.addEventListener("click",function(){
-    window.location.href = ""
+    window.location.href = "https://www.linkedin.com/in/tushar-shekhar-920272283/"
 })
 
 // function playBg(){
